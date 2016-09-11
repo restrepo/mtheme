@@ -1,4 +1,9 @@
 ## Metropolis
+Really installled as a git repo in:
+/usr/share/texlive/texmf-dist/tex/latex/mtheme
+Go there to pull and
+make sty
+
 
 **NOTICE: The package name changed from *m* to *metropolis*!**
 
