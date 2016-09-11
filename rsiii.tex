@@ -251,8 +251,20 @@ are even.
 \end{frame}
 
 \begin{frame}
-  \includegraphics[scale=0.3]{preliminar1}
+   \frametitle{
+\only<1>{Typical radiative neutrino mass diagram.}%
+\only<2>{In term of general SU(2)${}_{L}$ multiplets,}%
+\only<3>{may be also charged particles,}%
+\only<4>{which may decay into the dark matter particle.}%
+}
+  \only<1>{\includegraphics[scale=1.5]{main_vertex1}}%
+  \only<2>{\includegraphics[scale=1.5]{main_vertex2}}%
+  \only<3>{\includegraphics[scale=1.5]{main_vertex3}}%
+  \only<4>{\includegraphics[scale=1.5]{main_vertex4}}%
 \end{frame}
+
+
+
 \section{Proposal: $pp\to l^+l^-+\cancel{E_T}$}
 %%%%
 \begin{frame}
@@ -303,13 +315,16 @@ Simplified SUSY models
 % ^.
 
 \begin{frame}
-  \frametitle{Specific example}
+  \frametitle{Specific examples}
   Radiative Type-III See-saw
 
+Radiative Type-II See-saw
 Wino-like production 
 
 \includegraphics[scale=1]{rsiii_prod}\hspace{1cm}
 \includegraphics[scale=1]{rsiii_decay}
+
+Higgsino-like 
 
 For example if $\ell_3^{\pm}=\tau^{\pm}$
 
@@ -330,18 +345,111 @@ For example if $\ell_3^{\pm}=\tau^{\pm}$
 \end{frame}
 
 
+
+
 \section{Lepton flavor dependence}
+\begin{frame}
+  \frametitle{Neutrino masses}
+  
+
+\begin{align*}
+  ({\mathcal{M}}_{\nu})_{\alpha\beta} 
+\sum_{k=1}^{n_\Sigma} \left[Y^T \Lambda Y\right]_{\alpha\beta}~, \qquad  \alpha,\beta=1,2,3\,,
+\end{align*}
+From neutrino oscillation data, we can get a set of $Y$ choosing the angles for $R$, an arbitrary orthogonal matrix
+\begin{eqnarray}\label{eq:CasasIbarra}
+Y = \sqrt{\Lambda}^{-1} R  
+\operatorname{diag}( \sqrt{m_{\nu_{1}}}, \sqrt{m_{\nu_{2}}},\sqrt{m_{\nu_{3}}}  )
+U_{\rm PMNS}^{\dagger}
+\,,
+\end{eqnarray}
+\begin{align*}
+\hat Y_{\alpha }  \equiv&\hat Y_{1\alpha} = {Y_{1\alpha}}/{ \sqrt{\sum_{\alpha=e,\mu,\tau} |Y_{1\alpha}|^2 }} &  \mathcal{B}_\alpha \equiv &\operatorname{Br} (\Sigma_{1}^{\pm} \to \ell_\alpha H^{0}) = |\hat Y_\alpha|^2\,.  
+\end{align*}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Exploration of flavor space}
+\alert{Wino-like scotogenic model}: Recast for \alert{$B_{\mu}+B_e \gtrsim 0.1$} and
+\begin{align*}
+\color{red}  m_{H^0}<m_{\psi^{\pm}}= m_{\psi^{0}}<m_{A^0},m_{H^{\pm}}
+\end{align*}
+
+\vspace{-0.3cm}
+
+Start with Signal regions as in ATLAS-arXiv:1403.5294 for\\
+
+
+ $\cancel{E_T}$ with $e^+ e^-$, $\mu^+\mu^-$,
+ $e^{\pm}\mu^{\mp}$. 
+
+\centering
+\texttt{SARAH/FeynRules} \\
+$\Downarrow$\\
+\texttt{micrOMEGAS} (Experimental and theoretical constraints) \\
+$\Downarrow$\\
+\texttt{MadGraph}\\
+$\Downarrow$\\
+\texttt{Pythia 6} (\texttt{hep} format)\\ 
+$\Downarrow$\\
+\texttt{checkMATE} (CL-calcutation)
+% \begin{align*}
+%   CL=CL^{ee}CL^{\mu\mu}CL^{\mu e}
+% \end{align*}
+\end{frame}
+
+
 \begin{frame}
   \frametitle{Casas-Ibarra parametrization}
 In wino-like scotogenic model (may be in general)
 
 \begin{picture}(320,170)
 \only<1>{\put(-45,-10){\includegraphics[scale=0.4]{NH}}}    
-\only<1>{\put(135,-10){\includegraphics[scale=0.4]{IH}}}    
+\only<1>{\put(135,-10){\includegraphics[scale=0.4]{IH}}} 
+%\only<2>{\put(-45,-10){\includegraphics[scale=0.4]{f}}}    
 \end{picture}
 \centering
 $\mathcal{B}_l=\mathcal{B}\left( {\color{red}\psi^{\pm}}\to l{\color{red}H^0} \right)$ 
 \end{frame}
+
+
+\begin{frame}
+  \frametitle{Combination}
+  \includegraphics[scale=0.54]{clcomb}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{CMS 1405.7570: Best SUSY simplified model:}
+  Largest Wino-production to three leptons and MET
+\centering
+\includegraphics[scale=0.4,angle=-90]{exclusion_TChiSlepSnu_2i_0_5}
+
+\begin{tiny}
+Interpretation of the results of the three-lepton search in the flavor-democratic signal
+model with slepton mass\\
+
+\vspace{-0.3cm}
+
+ parameter $\xi_{\tilde{l}}=0.5$
+\end{tiny}
+
+\vspace{-0.3cm}
+
+Simplified SUSY to dileptons and MET: slepton pair production (see below) 
+
+13 TeV
+
+We would expect a similar exclusion of 1TeV for 100\% lepton
+\end{frame}
+
+\begin{frame}
+  \frametitle{Conclusions}
+  To use of scotogenic models to interpret dilepton
+plus missing energy searches allows larger sensitivity and 
+full flavor exploration
+\end{frame}
+
 
 \section{Recast at the LHC Run-I (wino-like scenario)}
 \begin{frame}
