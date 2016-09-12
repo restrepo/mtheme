@@ -103,8 +103,8 @@ xcolor=dvipsnames,table%,pdftex%,
 %\widescreen
 
 
-\title{$\nu$-Dark matter models}
-\subtitle{Model building }
+\title{Collider signals of scotogenic models}
+\subtitle{Radiative sessaw Type II and III }
 
 
 %\subtitle
@@ -124,15 +124,15 @@ Phenomenology Group\\
 \alert{\textbf{Focus on}} \\
 arXiv: arXiv:1308.3655 (JHEP),
 arXiv:1504.07892 (PRD),
-arXiv:1509.06313,
-arXiv:1511.01873,
-arXiv:1512.nnnnn.\\
+arXiv:1509.06313 (PRD),
+arXiv:1511.01873 (JHEP),
+arXiv:1605.01129 (PRD)\\
 \alert{In collaboration with}\\
   G.~Palacio, F.~von~der~Pahlen, D.~Portillo, A.~Rivera, M.~Sánchez, O.~Zapata (UdeA)\\
   C. Arbeláez (USM), W.~Tangarife (Tel Aviv U.), C.~Yaguna  (Heidelberg, Max Planck Inst.).}\\
 %\centering
-   III Encuentro Nacional de Física de Sabores \textbf{Pesados}\\
-       {\tiny December 12, Ibagué}
+TeV Particle Astrophysics 2016 \\
+       {\tiny September 13, CERN}
 }
 % - Use the \inst command only if there are several affiliations.
 % - Keep it simple, no one is interested in your street address.
@@ -195,7 +195,6 @@ arXiv:1512.nnnnn.\\
   \tableofcontents[hideallsubsections]
 \end{frame}
 
-\section{Scotogenic models}
 
 \section{General framework}
 
@@ -237,18 +236,6 @@ are even.
 \end{picture}
 \end{frame}
 
-\begin{frame}
-  \frametitle{Specific examples}
-  
-- RSIII
-
-- T13A
-
-- RSII
-
-- Inert Zee
-
-\end{frame}
 
 \begin{frame}
    \frametitle{
@@ -267,10 +254,6 @@ are even.
 
 \section{Proposal: $pp\to l^+l^-+\cancel{E_T}$}
 %%%%
-\begin{frame}
-  Benchmark: 
-Resonance and 100 GeV Charged scalar
-\end{frame}
 \begin{frame}
   \frametitle{Dilepton plus transverse missing energy signal}
 \vspace{-0.3cm}
@@ -305,7 +288,8 @@ Simplified SUSY models
   \end{overpic}\hfill
   \begin{overpic}[scale=0.9%,grid
             ]{fig_02b}
-    \put(-70,-10){Intermediate states and smaller lepton $\cancel{\boldsymbol{p}_{\text{T}}}$}    
+    \put(-70,-10){Intermediate states and smaller lepton $\cancel{\boldsymbol{p}_{\text{T}}}$}
+    \only<2>{\put(-180,180){\hspace{1cm}\color{blue} Benchmark point: 100 GeV \hspace{1cm}60 GeV }}    
   \end{overpic}
 \end{frame}
 % * <restrepo@udea.edu.co> 2015-11-15T12:45:09.589Z:
@@ -314,22 +298,76 @@ Simplified SUSY models
 %
 % ^.
 
+% \begin{frame}
+%   \frametitle{Specific examples}
+  
+% - RSIII
+
+% - T13A
+
+% - RSII
+
+% - Inert Zee
+
+% \end{frame}
+
 \begin{frame}
   \frametitle{Specific examples}
-  Radiative Type-III See-saw
 
-Radiative Type-II See-saw
-Wino-like production 
+\vspace{0.2cm}
 
-\includegraphics[scale=1]{rsiii_prod}\hspace{1cm}
-\includegraphics[scale=1]{rsiii_decay}
+\begin{columns}
+  \begin{column}{0.5\textwidth}
+    \includegraphics[scale=0.7]{rs_iii}
 
-Higgsino-like 
+\rowcolors{1}{RoyalBlue!20}{RoyalBlue!5}
+\begin{tabular}{|c||c|c|c|c|c|}
+\hline 
+&  $SU(2)_{L}$ & $  U(1)_{Y}$   & $Z_2$ & $S$
+\\ \hline \hline 
+ $\Phi_{\rm SM}$  & $2$&$ 1$ & $+$ & $0$ \\
+\hline
+ $\Phi\phantom{_{\rm SM}}$ & $2$&$ 1$  & $-$ & $0$ \\
+\hline
+ ${L_\alpha}$  & $2$&$-1\phantom{-} $ & $+$ & $1/2$ \\
+\hline 
+ ${\Sigma}_{k}$ & $3$&$ 0$  & $-$ & $1/2$ \\ 
+\hline
+\end{tabular} 
+  \end{column}
+  \begin{column}{0.5\textwidth}
+        \includegraphics[scale=0.7]{rs_ii}
 
-For example if $\ell_3^{\pm}=\tau^{\pm}$
+
+\rowcolors{1}{RoyalBlue!20}{RoyalBlue!5}
+\begin{tabular}{|c||c|c|c|c|c|}
+\hline 
+&  $SU(2)_{L}$ & $  U(1)_{Y}$   & $Z_2$ & $S$
+\\ \hline \hline 
+ $\Delta$  & $3$&$ 2$ & $+$ & $0$ \\
+\hline
+ $\Phi$ & $1$&$ 0$  & $-$ & $0$ \\
+\hline
+& & & &\\
+% ${L_\alpha}$  & $2$&$-1\phantom{-} $ & $+$ & $1/2$ \\
+\hline 
+ ${\Psi}_{L,R}$ & $2$&$ \pm1$  & $-$ & $1/2$ \\ 
+\hline
+\end{tabular} 
+
+  \end{column}
+\end{columns}
+
+\includegraphics[scale=0.73]{rsiii_prod}\hspace{0.1cm}
+\includegraphics[scale=0.73]{rsiii_decay}
+{
+
+\vspace{-2cm}
+\hspace{8cm} $\Sigma^+\to \psi^+$}
 
 \end{frame}
 
+%\end{document}
 
 \begin{frame}
   \frametitle{ ATLAS arXiv:1509.07152, $X^+ X^-\to 2\times \tau\, \phi_{\rm{DM}}$: $X^+=\psi^+,{}^{\sim}\!\!\!\!{\tau}^+_{R,L}$ (MVA)}
@@ -351,7 +389,8 @@ arXiv:1405.7570
 
 \begin{frame}
 \frametitle{Scalar dark matter mass 60 GeV}
-  \includegraphics[scale=0.6]{emuMVA}
+
+\hspace{-1.4cm}\includegraphics[scale=0.8]{emuMVA}
 \end{frame}
 
 
@@ -363,21 +402,35 @@ arXiv:1405.7570
   
 
 \begin{align*}
-  ({\mathcal{M}}_{\nu})_{\alpha\beta} 
-\sum_{k=1}^{n_\Sigma} \left[Y^T \Lambda Y\right]_{\alpha\beta}~, \qquad  \alpha,\beta=1,2,3\,,
+  ({\mathcal{M}}_{\nu})_{\alpha\beta} =
+\sum_{k=1}^{n_\Sigma} \left[{\color{red}Y^T} \Lambda {\color{red}Y}\right]_{\alpha\beta}~, \qquad  \alpha,\beta=1,2,3\,,
 \end{align*}
-From neutrino oscillation data, we can get a set of $Y$ choosing the angles for $R$, an arbitrary orthogonal matrix
+From neutrino oscillation data, we can get a set of $\color{red}Y$ choosing the angles for $\color{red}R$, an arbitrary \emph{complex orthogonal matrix}
 \begin{eqnarray}\label{eq:CasasIbarra}
-Y = \sqrt{\Lambda}^{-1} R  
+{\color{red}Y} = \sqrt{\Lambda}^{-1} {\color{red}R}\;  
 \operatorname{diag}( \sqrt{m_{\nu_{1}}}, \sqrt{m_{\nu_{2}}},\sqrt{m_{\nu_{3}}}  )
 U_{\rm PMNS}^{\dagger}
 \,,
 \end{eqnarray}
 \begin{align*}
-\hat Y_{\alpha }  \equiv&\hat Y_{1\alpha} = {Y_{1\alpha}}/{ \sqrt{\sum_{\alpha=e,\mu,\tau} |Y_{1\alpha}|^2 }} &  \mathcal{B}_\alpha \equiv &\operatorname{Br} (\Sigma_{1}^{\pm} \to \ell_\alpha H^{0}) = |\hat Y_\alpha|^2\,.  
+{\color{red} \hat Y_{\alpha } } \equiv&\hat Y_{1\alpha} = {Y_{1\alpha}}/{ \sqrt{\sum_{\alpha=e,\mu,\tau} |Y_{1\alpha}|^2 }} &\hspace{0.5cm} {\color{red} \mathcal{B}_\alpha } \equiv &\operatorname{Br} (\Sigma_{1}^{\pm} \to \ell_\alpha H^{0}) = |{\color{red}\hat Y_\alpha}|^2\,.  
 \end{align*}
 \end{frame}
 
+
+\begin{frame}
+  \frametitle{Casas-Ibarra parametrization}
+In wino-like scotogenic model (may be in general)
+
+\begin{picture}(320,170)
+\only<1->{\put(-45,-10){\includegraphics[scale=0.4]{NH}}}    
+\only<1->{\put(135,-10){\includegraphics[scale=0.4]{IH}}} 
+\only<2>{\put(35,130){\includegraphics[scale=0.15]{highlight_circle}}}  \only<2>{\put(35,130){\includegraphics[scale=0.15]{highlight_circle}}}  
+\end{picture}
+\centering
+$\mathcal{B}_l=\mathcal{B}\left( {\color{red}\Sigma^{\pm}}\to l^{\pm}{\color{red}H^0} \right)$ 
+\end{frame}
+\end{document}
 \begin{frame}
   \frametitle{Exploration of flavor space}
 \alert{Wino-like scotogenic model}: Recast for \alert{$B_{\mu}+B_e \gtrsim 0.1$} and
@@ -408,19 +461,6 @@ $\Downarrow$\\
 % \end{align*}
 \end{frame}
 
-
-\begin{frame}
-  \frametitle{Casas-Ibarra parametrization}
-In wino-like scotogenic model (may be in general)
-
-\begin{picture}(320,170)
-\only<1>{\put(-45,-10){\includegraphics[scale=0.4]{NH}}}    
-\only<1>{\put(135,-10){\includegraphics[scale=0.4]{IH}}} 
-%\only<2>{\put(-45,-10){\includegraphics[scale=0.4]{f}}}    
-\end{picture}
-\centering
-$\mathcal{B}_l=\mathcal{B}\left( {\color{red}\psi^{\pm}}\to l{\color{red}H^0} \right)$ 
-\end{frame}
 
 
 \begin{frame}
@@ -1730,6 +1770,18 @@ TEMPLATES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 2. Two columns
+\begin{columns}
+  \begin{column}{0.48\textwidth}
+    
+  \end{column}
+  \begin{column}{0.48\textwidth}
+    
+  \end{column}
+\end{columns}
+
+
+
+
 \begin{columns}
   \column{.48\textwidth}
   \begin{block}<2->{}
